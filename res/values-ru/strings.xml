@@ -16,7 +16,7 @@
 -->
 
 <resources>
-    <string name="app_name">OTA Обновление</string>
+    <string name="app_name">О прошивке</string>
     <string name="notif_text_rom">Доступно обновление прошивки</string>
     <string name="notif_source">OTA Обновление</string>
     <string name="alert_nodata_title">Отсутствует соединение!</string>
@@ -84,6 +84,11 @@
     <string name="license_error">Ошибка при загрузке файла лицензии</string>
     <string name="settings_notifications">Параметры уведомлений</string>
     <string name="display_notifications">Показать уведомления</string>
-    <string name="notify_default">Уведомления отключены.</string>
+    <string name="notify_default">Отключение уведомлений.</string>
     <string name="notify_false">Уведомления отключены.</string>
+
+    <string name="main_rom_info">Информация о прошивке</string>
+    <string name="main_author">Автор</string>
+    <string name="main_homepage">Домашняя страница</string>
+    <string name="maim_android_version">Версия Android</string>
 </resources>

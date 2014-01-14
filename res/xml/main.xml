@@ -16,39 +16,27 @@
 
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <PreferenceCategory
-        android:title="@string/main_device_info">
-
-        <Preference
-            android:title="@string/main_device"
-            android:icon="@drawable/device"
-            android:key="device_view" />
+        <Preference android:layout="@layout/logo_layout" />
 
         <Preference
             android:title="@string/main_rom"
             android:icon="@drawable/hammer"
             android:key="rom_view" />
-
         <Preference
             android:title="@string/main_version"
             android:icon="@drawable/version"
             android:key="version_view" />
-
         <Preference
-            android:title="@string/main_otaid"
-            android:icon="@drawable/key"
-            android:key="otaid_view" />
-
-    </PreferenceCategory>
-
-    <PreferenceCategory
-        android:title="@string/main_updates">
-        
+            android:title="@string/main_author"
+            android:icon="@drawable/man"
+            android:key="author_view" />
         <Preference
-	        android:title="@string/main_avail_updates"
-	        android:icon="@drawable/cloud"
-	        android:key="avail_updates" />
-	        
-    </PreferenceCategory>
+            android:title="@string/main_homepage"
+            android:icon="@drawable/home"
+            android:key="homepage_view" />
+        <Preference
+            android:title="@string/main_avail_updates"
+            android:icon="@drawable/cloud"
+            android:key="avail_updates" />
 
 </PreferenceScreen>
